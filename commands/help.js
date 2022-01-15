@@ -36,10 +36,10 @@ module.exports = {
         }help [Command] | Have a nice day!`
       ).setDescription(`${Commands.join("\n")}
   
-  Discord Music Bot Version: v${require("../package.json").version}
-  [✨ Support Server](${
-    client.botconfig.SupportServer
-  }) | [GitHub](https://github.com/SudhanPlayz/Discord-MusicBot) | [Dashboard](${client.botconfig.Website}) | By [SudhanPlayz](https://github.com/SudhanPlayz)`);
+      GANGSTERLAB MUSIC Bot
+      [✨ Support Server](${
+        client.botconfig.SupportServer
+      }) | [Dashboard](${client.botconfig.Website})`);
     if (!args[0]) message.channel.send(Embed);
     else {
       let cmd =
@@ -123,7 +123,7 @@ module.exports = {
   GANGSTERLAB MUSIC Bot
   [✨ Support Server](${
     client.botconfig.SupportServer
-  }) [Dashboard](${client.botconfig.Website})`);
+  }) | [Dashboard](${client.botconfig.Website})`);
       if (!args) return interaction.send(Embed);
       else {
         let cmd =
