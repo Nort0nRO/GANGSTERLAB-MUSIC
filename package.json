@@ -24,6 +24,9 @@
     "music",
     "discord-music"
   ],
+  "config": {
+    "unsafe-perm":true
+},
   "author": "SudhanPlayz",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
